@@ -1,0 +1,21 @@
+doctype
+html
+	head
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		link(rel="stylesheet" href="fonts/fonts.css")
+		link(rel="stylesheet" href="styles/app.css")
+	body
+		.container
+			h1 Music bands
+			.offers.js-offers
+				.offers__grid
+					each unit in offers.units
+						.offers__unit.js-offers-cell
+							button.offers__title=unit.title
+							.offers__content.js-offers-content
+								ul.offers__list
+									each contentItem in unit.content
+										li.offers__item=contentItem.title
+					.offers__details.js-offers-details
+		script(src="scripts/app.js")

@@ -1,0 +1,68 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+html {
+	height: 100%;
+	font-size: 100%;
+}
+
+body {
+	@if $fixFooterStrategie == "flex" {
+		display: flex;
+		flex-direction: column;
+	} @else if $fixFooterStrategie == "positioning" {
+		position: relative;
+	}
+	min-height: 100%;
+    font-family: $primaryFont;
+	color: $shark;
+	background-color: $white;
+
+	&:before {
+		content: "sm";
+		display: none;
+	}
+
+	@media screen and (min-width: 600px) {
+		&::before {
+			content: "md";
+		}
+	}
+
+	@media screen and (min-width: 1024px) {
+		&::before {
+			content: "large";
+		}
+	}
+}
+
+.container {
+	@if $fixFooterStrategie == "flex" {
+		width: 100%;
+	}
+	max-width: 960px;
+	margin: auto;
+	padding: 0 $globalWrapperFields;
+	min-width: 320px;
+}
+
+
+main {
+	@if $fixFooterStrategie == "flex" {
+		flex-grow: 1;
+	} @else if $fixFooterStrategie == "positioning" {
+		padding-bottom: 104px; //footer approximate height
+	}
+}
+
+svg:hover {
+	fill: #D67822;
+}
+

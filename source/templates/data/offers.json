@@ -1,0 +1,163 @@
+{
+	"units":[
+		{
+			"title":"Korn",
+			"content":[
+				{
+					"title":"Korn, 1994"
+				},
+				{
+					"title":"Life is Peachy, 1996"
+				},
+				{
+					"title":"Follow the Leader, 1998"
+				}
+			]
+		},
+		{
+			"title":"Sepultura",
+			"content":[
+				{
+					"title":"Morbid Visions, 1986"
+				},
+				{
+					"title":"Schizophrenia, 1987"
+				},
+				{
+					"title":"Beneath The Remains, 1989"
+				},
+				{
+					"title":"Arise, 1991"
+				}
+			]
+		},
+		{
+			"title":"Limp Bizkit",
+			"content":[
+				{
+					"title":"Three Dollar Bill, Yall$, 1997"
+				},
+				{
+					"title":"Significant Other, 1999"
+				},
+				{
+					"title":"Chocolate Starfish And The Hot Dog Flavored Water, 2000"
+				},
+				{
+					"title":"Results May Vary, 2003"
+				},
+				{
+					"title":"Gold Cobra, 2011"
+				}
+			]
+		},
+		{
+			"title":"Linkin Park",
+			"content":[
+				{
+					"title":"Hybrid Theory, 2000"
+				},
+				{
+					"title":"Meteora, 2003"
+				},
+				{
+					"title":"Minutes To Midnight, 2007"
+				}
+			]
+		},
+		{
+			"title":"System Of A Down",
+			"content":[
+				{
+					"title":"System Of A Down, 1998"
+				},
+				{
+					"title":"Toxicity, 2001"
+				},
+				{
+					"title":"Steal This Album!, 2002"
+				},
+				{
+					"title":"Hypnotize, 2005"
+				},
+				{
+					"title":"Mezmerize, 2005"
+				}
+			]
+		},
+		{
+			"title":"Deftones",
+			"content":[
+				{
+					"title":"Deftones, 1992"
+				},
+				{
+					"title":"Adrenaline, 1995"
+				},
+				{
+					"title":"Around The Fur, 1997"
+				},
+				{
+					"title":"White Pony, 2000"
+				}
+			]
+		},
+		{
+			"title":"Slipknot",
+			"content":[
+				{
+					"title":"Slipknot, 1997"
+				},
+				{
+					"title":"Iowa, 2001"
+				},
+				{
+					"title":"Vol. 3: (The Subliminal Verses), 2004"
+				},
+				{
+					"title":"All Hope Is Gone, 2008"
+				}
+			]
+		},
+		{
+			"title":"Rammstein",
+			"content":[
+				{
+					"title":"Herzeleid, 1995"
+				},
+				{
+					"title":"Sehnsucht, 1997"
+				},
+				{
+					"title":"Mutter, 2001"
+				},
+				{
+					"title":"Reise, Reise, 2004"
+				},
+				{
+					"title":"Rosenrot, 2005"
+				}
+			]
+		},
+		{
+			"title":"Guano Apes",
+			"content":[
+				{
+					"title":"Proud Like A God, 1997"
+				},
+				{
+					"title":"Don't Give Me Names, 2000"
+				},
+				{
+					"title":"Walking On A Thin Line, 2003"
+				},
+				{
+					"title":"Bel Air, 2011"
+				},
+				{
+					"title":"Offline, 2014"
+				}
+			]
+		}
+	]
+}
